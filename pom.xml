@@ -72,6 +72,14 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/homeWorkTerlyha.jar</systemPath>
 		</dependency>
+		
+		<dependency>
+			<groupId>edu.ita.Lv179jv</groupId>
+			<artifactId>homeWorkBervetskyy</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/homeWorkBervetskyy.jar</systemPath>
+		</dependency>
 
 		<dependency>
 			<groupId>edu.ita.Lv179jv</groupId>

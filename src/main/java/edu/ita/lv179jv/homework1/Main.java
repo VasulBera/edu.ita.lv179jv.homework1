@@ -1,5 +1,7 @@
 package edu.ita.lv179jv.homework1;
 
+import hometask.HometaskBervetskyy;
+
 import java.util.Scanner;
 
 import date100316.HomeworkKrokhmalyuk;
@@ -43,7 +45,21 @@ public class Main {
                 HomeWorkPetryk.solveExercise560();
                 System.out.println("----------------------------------------------------------");
                 break;
-
+            case "4":
+		System.out.println("Given an integer number N. Find out if this number consists number 3.");
+		HometaskBervetskyy.solveExercise88a();
+		System.out.println("----------------------------------------------------------");
+		break;
+            case "5":
+		System.out.println("Given an integer number N. Change the order of digits of N on reverse.");
+		HometaskBervetskyy.solveExercise88b();
+		System.out.println("----------------------------------------------------------");
+		break;
+            case "6":
+		System.out.println("Find an integer from 1 to 10,000 with maximum sum of the divisors.");
+		HometaskBervetskyy.solveExercise322();
+		System.out.println("----------------------------------------------------------");
+		break;
             case "10":
                 System.out.println("Find the smallest number of format 2^r that is bigger than given natural number");
                 HomeworkTerlyha.solveExcercise108();
@@ -130,9 +146,9 @@ public class Main {
         System.out.println("1 for Exercise No. 182"); // Petryk
         System.out.println("2 for Exrecise No. 323");
         System.out.println("3 for Exrecise No. 560");
-        System.out.println("4 for Exrecise No. XXX"); // ???
-        System.out.println("5 for Exrecise No. XXX");
-        System.out.println("6 for Exrecise No. XXX");
+        System.out.println("4 for Exrecise No. 88a"); // Bervetskyy
+        System.out.println("5 for Exrecise No. 88b");
+        System.out.println("6 for Exrecise No. 322");
         System.out.println("7 for Exrecise No. 178.1"); // Krokhmalyuk
         System.out.println("8 for Exrecise No. 178.2");
         System.out.println("9 for Exrecise No. 555");
